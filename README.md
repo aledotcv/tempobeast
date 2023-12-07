@@ -28,9 +28,9 @@ TEMPOBEAST wholly relies on its community of players to produce new content for 
 
 ## Gallery
 
-![Screenshot 1](https://raw.githubusercontent.com/aledotcv/data/main/tb-client/ss1.png)
+![Screenshot 1](https://raw.githubusercontent.com/aledotcv/data/main/tb-client/ss11.png)
 
-![Screenshot 2](https://raw.githubusercontent.com/aledotcv/data/main/tb-client/ss2.png)
+![Screenshot 2](https://raw.githubusercontent.com/aledotcv/data/main/tb-client/ss22.png)
 
 ## Wiki
 
