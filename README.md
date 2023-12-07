@@ -1,9 +1,9 @@
 
 # TEMPOBEAST 🎧
 
-TEMPOBEAST is a free community-powered mobile rhythm experience.
+**TEMPOBEAST is a free community-powered mobile rhythm experience.**
 
-Experience your music in a completely different manner, with simple, easy to understand mechanics and graphics.
+*Experience your music in a completely different manner, with simple, easy to understand mechanics and graphics.*
 
 TEMPOBEAST wholly relies on its community of players to produce new content for everyone to experience.
 
@@ -24,7 +24,13 @@ TEMPOBEAST wholly relies on its community of players to produce new content for 
 ## Discord
   - [Click me to join](https://discord.gg/fJTA6bTaDq)
 
-
+## Features
+* 120 FPS Support
+* [Level Mapper](https://github.com/aledotcv/tempobeast/wiki/Mapping)
+* Haptic Feedback
+* Reactive to music
+* [Support for Bluetooth audio devices](https://github.com/aledotcv/tempobeast/wiki/How-to-play#how-to)
+* [Player help (Cues, assistant)](https://github.com/aledotcv/tempobeast/wiki/How-to-play#configure-the-client-to-your-own-liking)
 
 ## Gallery
 
