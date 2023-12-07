@@ -34,4 +34,4 @@ TEMPOBEAST wholly relies on its community of players to produce new content for 
 
 ## Wiki
 
-I **strongly** advise you read our Wiki to fully understand the functionality of the game.
+I **strongly** advise you read our [Wiki](https://github.com/aledotcv/tempobeast/wiki) to fully understand the functionality of the game.
