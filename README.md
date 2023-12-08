@@ -41,3 +41,9 @@ TEMPOBEAST wholly relies on its community of players to produce new content for 
 ## Wiki
 
 I **strongly** advise you read our [Wiki](https://github.com/aledotcv/tempobeast/wiki) to fully understand the functionality of the game.
+
+## Liability
+Us (developers) of the TEMPOBEAST project are **NOT** liable for damages incurred by players (users) or content hosted
+by players (users). Us (developers) are also **NOT** liable for damages incurred to players by the use of our
+project. Use under **your** own responsibility.
+
