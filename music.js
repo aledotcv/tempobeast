@@ -102,7 +102,8 @@ app.get('/music/play', async (req, res) => {
  });
 
  app.get('/music/preview', async (req, res) => {
-	const info = await fs.promises.readFile('/root/cdn/files/music/previews.json', 'utf-8');
+    const previewsPath = path.join(musicFolder,'previews.json');
+    const info = await fs.promises.readFile(previewsPath, 'utf-8');
     const jsonData = JSON.parse(info);
 
     const randomIndex = Math.floor(Math.random() * jsonData.length);
