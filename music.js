@@ -59,6 +59,7 @@ app.get('/music/getAll', async (req, res) => {
 
 
 app.get('/music/play', async (req, res) => {
+  var err = false;
 	var id = req.query.id;
 	const folders = await fs.promises.readdir(musicFolder);
 	const folderCount = folders.filter(folder => 
@@ -68,26 +69,40 @@ app.get('/music/play', async (req, res) => {
 		id = String(Math.floor(Math.random() * folderCount) + 1);
 	}
  
-	const colorFilePath = path.join(musicFolder, 'color.json');
-	const colorJson = await fs.promises.readFile(colorFilePath, 'utf-8');
-	const colors = JSON.parse(colorJson);
- 
-	if (!colors[id]) {
-		return res.status(400).send({ content: 'Invalid request' });
-	}
+
 
 	const mapFilePath = path.join(musicFolder, id, 'map.json');
 	const infoFilePath = path.join(musicFolder, id, 'info.json');
 	const fxFilePath = path.join(musicFolder, id, 'fx.json');
+  var infoJson = null;
+  var mapJson = null;
+  
+  try {
+     infoJson = await fs.promises.readFile(infoFilePath, 'utf-8');
+  } catch (error) {
+    console.error('Error reading info file:', error.message);
+    err = true;
+    res.status(404).send("The track could not be accesed >>> INFO");
+  }	
+  try {
+    mapJson = await fs.promises.readFile(mapFilePath, 'utf-8');
+  } catch (error) {
+    console.error('Error reading map file:', error.message);
+    if(!err)
+    {
+    err = true;
+    res.status(404).send("The track could not be accesed >>> MAP");
+    }
+  }	
 
-    const infoJson = await fs.promises.readFile(infoFilePath, 'utf-8');
-	const mapJson = await fs.promises.readFile(mapFilePath, 'utf-8');
-
+if(!err)
+{
 	const info = JSON.parse(infoJson);
 
 	const trackURL = info.music_data[0].trackUrl;
  
-	const colorHex = colors[id];
+	const colorHex = info.music_data[0].color
+
 	if (fs.existsSync(fxFilePath)) {
         const fxJson = await fs.promises.readFile(fxFilePath, 'utf-8');
         const fxData = JSON.parse(fxJson);
@@ -99,6 +114,7 @@ app.get('/music/play', async (req, res) => {
 	res.setHeader('trackURL', trackURL);
  
 	res.status(200).send(mapJson);
+}
  });
 
  app.get('/music/preview', async (req, res) => {
