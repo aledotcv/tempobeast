@@ -1,0 +1,11 @@
+{
+  "port": 3000,
+  "filesPort": 3001,
+  "serverVersion": "1.5.0",
+  "musicFolder": "music",
+  "excludedEntries": [
+    "color.json",
+    "previews",
+    "previews.json"
+  ]
+}
