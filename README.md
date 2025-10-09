@@ -7,7 +7,7 @@
 
 TEMPOBEAST wholly relies on its community of players to produce new content for everyone to experience.
 
-
+Included in this repository is the code for a Node server compatible with the TEMPOBEAST mobile client.
 
 
 
