@@ -5,32 +5,27 @@
 
 *Experience your music in a completely different manner, with simple, easy to understand mechanics and graphics.*
 
-TEMPOBEAST wholly relies on its community of players to produce new content for everyone to experience.
+TEMPOBEAST allows its community of players to produce new content for everyone to experience.
 
-Included in this repository is the code for a Node server compatible with the TEMPOBEAST mobile client.
-
+Included in this repository is the code for a Node server compatible with the itch.io TEMPOBEAST mobile client.
 
 
 ## Download
 
- - [Click here](https://aledotcv.itch.io/tempobeast/purchase)
-  - [Read our device compatibility article](https://github.com/aledotcv/tempobeast/wiki/Client-compatibility)
- 
-## Credits
+ - [Google Play Store (incompatible with community nodes for now)](https://play.google.com/store/apps/details?id=com.aledotcv.beast)
+ - [itch.io](https://aledotcv.itch.io/tempobeast/purchase)
 
- - (Client) [aledotcv](https://github.com/aledotcv)
- - (Server) [Flechering](https://github.com/Flechering)
 
 ## Discord
   - [Click me to join](https://discord.gg/fJTA6bTaDq)
 
 ## Features
 * 120 FPS Support
-* [Level Mapper](https://github.com/aledotcv/tempobeast/wiki/Mapping)
+* [Level Mapper]([https://github.com/aledotcv/tempobeast/wiki/Mapping](https://aledotcv.com/tempobeast/mapper/))
 * Haptic Feedback
 * Reactive to music
-* [Support for Bluetooth audio devices](https://github.com/aledotcv/tempobeast/wiki/How-to-play#how-to)
-* [Player help (Cues, assistant)](https://github.com/aledotcv/tempobeast/wiki/How-to-play#configure-the-client-to-your-own-liking)
+* [Support for Bluetooth audio devices]
+* [Player help (Cues, assistant)]
 
 ## Gallery
 
@@ -38,9 +33,6 @@ Included in this repository is the code for a Node server compatible with the TE
 
 ![Screenshot 2](https://raw.githubusercontent.com/aledotcv/data/main/tb-client/ss22.png)
 
-## Wiki
-
-I **strongly** advise you read our [Wiki](https://github.com/aledotcv/tempobeast/wiki) to fully understand the functionality of the game.
 
 ## Liability
 Us (developers) of the TEMPOBEAST project are **NOT** liable for damages or claims incurred by players (users) or content hosted
